@@ -1,0 +1,8 @@
+---
+layout: default
+title: Bibliography
+---
+<h1>Bibliography</h1>
+{% for work in site.data.works %}
+<p>{{ work.Author }}, "{{ work.Title }}," {{work.PublicationYear}}</p>
+{% endfor %}

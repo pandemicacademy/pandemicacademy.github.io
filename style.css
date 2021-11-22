@@ -1,0 +1,70 @@
+html,
+body {
+    margin:0;
+    padding:0;
+}
+
+html {
+    background: rgba(143, 116, 61, 0.176);
+    color: #393939;
+    font: 16px/1.375em 'Libre Baskerville', serif;
+    padding-left: 3em;
+}
+
+body {
+    background: white;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+h1,h2 {
+    font-family: "Libre Baskerville", serif;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 100;
+    line-height: 1em;
+}
+
+#banner,#main {
+    padding: 2em 5em;
+}
+
+#banner:after {
+    display:block;
+    content: " ";
+    width: 5em;
+    height: .5em;
+    background:#ff999a;
+}
+
+#banner p {
+    font-family:  'Outfit', sans-serif;
+    color: #999;
+    font-size: 20px;
+}
+
+#main h1 {
+    margin-bottom: 3em;
+}
+
+#main p {
+    margin-left: 4em;
+    text-indent: -4em;
+}
+
+@media screen and (min-width: 770px) {
+
+    body {
+        flex-direction: row-reverse;
+    }
+    #banner,#main {
+        padding: 3em;
+    }
+    #main {
+        width: 70%;
+    }
+    #banner {
+        width: 30%;
+    }
+
+}
