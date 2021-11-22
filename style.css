@@ -6,9 +6,9 @@ body {
 
 html {
     background: rgba(143, 116, 61, 0.176);
-    color: #393939;
+    color: #444;
     font: 16px/1.375em 'Libre Baskerville', serif;
-    padding-left: 3em;
+    padding: 20px 40px 0 0;
 }
 
 body {
@@ -16,6 +16,8 @@ body {
     display:flex;
     flex-direction: column;
     flex-wrap: nowrap;
+    position: relative;
+    box-shadow: 10px 10px 0 rgba(0,0,0,0.075);
 }
 
 h1,h2 {
@@ -32,9 +34,13 @@ h1,h2 {
 #banner:after {
     display:block;
     content: " ";
-    width: 5em;
-    height: .5em;
-    background:#ff999a;
+    width: 80px;
+    height: 5px;
+    background:#e90;
+}
+
+#banner h1 {
+    color: #e90;
 }
 
 #banner p {
@@ -44,18 +50,19 @@ h1,h2 {
 }
 
 #main h1 {
-    margin-bottom: 3em;
+    margin:0 0 3em;
+    color:  #999;
 }
 
 #main p {
-    margin-left: 4em;
-    text-indent: -4em;
+    margin-left: 2em;
+    text-indent: -2em;
 }
 
 @media screen and (min-width: 770px) {
 
     body {
-        flex-direction: row-reverse;
+        flex-direction: row;
     }
     #banner,#main {
         padding: 3em;
@@ -65,6 +72,16 @@ h1,h2 {
     }
     #banner {
         width: 30%;
+        display:flex;
+        flex-direction: column;
+        flex-wrap: no-wrap;
+        height: 50vh;
+        justify-content:space-between;
+    }
+
+    #banner h1,
+    #banner p {
+        margin:0; padding:0;
     }
 
 }
