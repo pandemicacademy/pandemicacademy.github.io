@@ -5,6 +5,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   on the intersections of pandemics, race, and gender in the academy.
 baseurl: ""
 url: "https://pandemicacademics.github.io"
+destination: ./docs
 
 plugins: ['jekyll/scholar']
 
