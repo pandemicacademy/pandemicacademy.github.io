@@ -27,6 +27,10 @@ h1,h2 {
     line-height: 1em;
 }
 
+ol.bibliography {
+    list-style:none;
+}
+
 #banner,#main {
     padding: 2em 5em;
 }
@@ -54,7 +58,7 @@ h1,h2 {
     color:  #999;
 }
 
-#main p {
+.bibliography li {
     margin-left: 2em;
     text-indent: -2em;
 }
