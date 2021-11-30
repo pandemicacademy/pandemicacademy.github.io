@@ -1,1 +1,0 @@
-dnsfeed({"country":"US","state":"NY","stateName":"New York","zipcode":"11209","timezone":"America/New_York","latitude":"40.62080","longitude":"-74.04260","city":"Brooklyn","continent":"NA"})
