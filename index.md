@@ -2,6 +2,5 @@
 layout: default
 title: Bibliography
 ---
-<h1>Bibliography</h1>
 
 {% bibliography %}

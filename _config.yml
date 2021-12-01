@@ -13,3 +13,6 @@ scholar:
   style: modern-language-association
   sort_by: author,year
   sort_order: ascending,descending
+  bibtex_filters:
+    - latex
+    - markdown
